@@ -32,7 +32,7 @@ dependencies:
   # plugin_platform_interface: ^2.0.0
   # permission_handler_platform_interface: ^1.0.0
   dio: ^4.0.4 
-  downloads_path_provider_28: ^0.1.0
+  downloads_path_provider_28: ^0.1.2
   permission_handler: ^8.3.0
   flutter_local_notifications: ^9.2.0
   path_provider: ^2.0.8
