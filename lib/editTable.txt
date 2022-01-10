@@ -1,0 +1,69 @@
+Widget editTable() {
+    //row data
+    List rows = [
+      {
+        "name": 'James Peter',
+        "date": '01/08/2007',
+        "month": "March",
+        "status": "beginner"
+      },
+      {
+        "name": 'Okon Etim',
+        "date": '09/07/1889',
+        "month": "January",
+        "status": "completed"
+      },
+      {
+        "name": 'Samuel Peter',
+        "date": '11/11/2002',
+        "month": "April",
+        "status": "intermediate"
+      },
+      {
+        "name": 'Udoh Ekong',
+        "date": '06/3/2020',
+        "month": "July",
+        "status": "beginner"
+      },
+      {
+        "name": 'Essien Ikpa',
+        "date": '12/6/1996',
+        "month": "June",
+        "status": "completed"
+      },
+    ];
+//Headers or Columns
+    List headers = [
+      {"title": "Name", 'widthFactor': 0.3, "key": "name"},
+      {"title": "Date", 'widthFactor': 0.2, "key": "date"},
+      {"title": "Month",'widthFactor': 0.2, "key": "month"},
+      {"title": "Status", 'widthFactor': 0.2, "key": "status"},
+    ];
+    return ListView(scrollDirection: Axis.horizontal, children: <Widget>[
+      (Editable(
+        columns: headers,
+        rows: rows,
+        showCreateButton: false,
+        tdStyle: TextStyle(fontSize: 20),
+        showSaveIcon: true,
+        saveIcon: Icons.save_outlined,
+        saveIconColor: Colors.green.shade400,
+        saveIconSize: 50,
+        borderColor: Colors.grey.shade300,
+        zebraStripe: true,
+        stripeColor1: Colors.grey.shade200,
+        stripeColor2: Colors.green.shade100,
+        
+        onSubmitted: (value) {
+          //new line
+          print(value); //you can grab this data to store anywhere
+        },
+        onRowSaved: (value) {
+          // "no edit"  if no edit this row
+          //added line
+          print(value); //prints to console
+          
+        },
+      )),
+    ]);
+  }

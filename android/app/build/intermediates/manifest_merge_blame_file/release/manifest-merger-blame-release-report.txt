@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+11-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:8:5-83
+11-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:8:22-80
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:9:5-80
+12-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:9:22-77
+13
+14    <application
+14-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:3-27:17
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb819d2e68d445b89be4cba8756f6164\core-1.6.0\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:40-74
+17        android:label="FaceTax" >
+17-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:16-39
+18  android:requestLegacyExternalStorage="true" 
+19        <activity
+19-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:5-20:16
+20            android:name="com.example.dp.MainActivity"
+20-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:15-43
+21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+21-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:110-260
+22            android:hardwareAccelerated="true"
+22-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:261-295
+23            android:launchMode="singleTop"
+23-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:44-74
+24            android:theme="@style/LaunchTheme"
+24-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:75-109
+25            android:windowSoftInputMode="adjustResize" >
+25-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:296-338
+26
+27            <!--
+28           Specifies an Android theme to apply to this Activity as soon as
+29                 the Android process has started. This theme is visible to the user
+30                 while the Flutter UI initializes. After that, this theme continues
+31                 to determine the Window background behind the Flutter UI.
+32            -->
+33            <meta-data
+33-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:9:7-114
+34                android:name="io.flutter.embedding.android.NormalTheme"
+34-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:9:18-73
+35                android:resource="@style/NormalTheme" />
+35-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:9:74-111
+36            <!--
+37           Displays an Android View that continues showing the launch screen
+38                 Drawable until Flutter paints its first frame, then this splash
+39                 screen fades out. A splash screen is useful to avoid any visual
+40                 gap between the end of Android's launch screen and the painting of
+41                 Flutter's first frame.
+42            -->
+43            <meta-data
+43-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:15:7-132
+44                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+44-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:15:18-82
+45                android:resource="@drawable/launch_background" />
+45-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:15:83-129
+46
+47            <intent-filter>
+47-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:16:7-19:23
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:17:9-60
+48-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:17:17-58
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:18:9-68
+50-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:18:19-66
+51            </intent-filter>
+52        </activity>
+53        <!--
+54         Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:23:5-68
+58            android:name="flutterEmbedding"
+58-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:23:16-47
+59            android:value="2" />
+59-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:23:48-65
+60        <!-- <uses-permission android:name="android.permission.INTERNET"/> -->
+61        <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+62        <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> -->
+63        <provider
+63-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+64            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+64-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+65            android:authorities="com.example.dp.flutter.image_provider"
+65-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+66            android:exported="false"
+66-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+67            android:grantUriPermissions="true" >
+67-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+68            <meta-data
+68-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+69                android:name="android.support.FILE_PROVIDER_PATHS"
+69-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+70                android:resource="@xml/flutter_image_picker_file_paths" />
+70-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+71        </provider>
+72        <provider
+72-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:12:9-21:20
+73            android:name="com.crazecoder.openfile.FileProvider"
+73-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:13:13-64
+74            android:authorities="com.example.dp.fileProvider.com.crazecoder.openfile"
+74-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:14:13-88
+75            android:exported="false"
+75-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+76            android:grantUriPermissions="true" >
+76-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:16:13-47
+77            <meta-data
+77-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+79                android:resource="@xml/filepaths" />
+79-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+80        </provider>
+81    </application>
+82
+83</manifest>

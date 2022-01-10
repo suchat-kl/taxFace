@@ -1,0 +1,26 @@
+git init
+PS C:\flutterPrj\taxFace>  git config --global user.email "suchat.kl@kkumail.com"
+PS C:\flutterPrj\taxFace>  git config --global user.name  "suchat.kl"            
+
+PS C:\flutterPrj\taxFace> git add .
+
+PS C:\flutterPrj\taxFace> git commit -m "uploadFile"
+
+PS C:\flutterPrj\taxFace> git remote add origin https://github.com/suchat-kl/taxFace.git
+PS C:\flutterPrj\taxFace> git branch -M main
+PS C:\flutterPrj\taxFace> git push -u origin main
+Select an authentication method for 'https://github.com/':
+  1. Web browser (default)
+  2. Personal access token
+option (enter for default):
+info: please complete authentication in your browser...
+Enumerating objects: 121, done.
+Counting objects: 100% (121/121), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (95/95), done.
+Writing objects: 100% (121/121), 84.81 KiB | 1.88 MiB/s, done.
+Total 121 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/suchat-kl/taxFace.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.

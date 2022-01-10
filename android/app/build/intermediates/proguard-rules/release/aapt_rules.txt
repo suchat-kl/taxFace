@@ -1,0 +1,8 @@
+# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:14
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:72
+-keep class com.crazecoder.openfile.FileProvider { <init>(); }
+# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:19
+-keep class com.example.dp.MainActivity { <init>(); }
+# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:63
+-keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }

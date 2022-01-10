@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+15-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-83
+15-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-80
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
+16-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-77
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+17-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+18-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+19    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+19-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+19-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+20    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+20-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+20-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+21
+22    <application
+22-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:3-27:17
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb819d2e68d445b89be4cba8756f6164\core-1.6.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:40-74
+26        android:label="FaceTax" >
+26-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:16-39
+27  android:requestLegacyExternalStorage="true" 
+28        <activity
+28-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:5-20:16
+29            android:name="com.example.dp.MainActivity"
+29-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:15-43
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:110-260
+31            android:hardwareAccelerated="true"
+31-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:261-295
+32            android:launchMode="singleTop"
+32-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:44-74
+33            android:theme="@style/LaunchTheme"
+33-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:75-109
+34            android:windowSoftInputMode="adjustResize" >
+34-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:296-338
+35
+36            <!--
+37           Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:9:7-114
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:9:18-73
+44                android:resource="@style/NormalTheme" />
+44-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:9:74-111
+45            <!--
+46           Displays an Android View that continues showing the launch screen
+47                 Drawable until Flutter paints its first frame, then this splash
+48                 screen fades out. A splash screen is useful to avoid any visual
+49                 gap between the end of Android's launch screen and the painting of
+50                 Flutter's first frame.
+51            -->
+52            <meta-data
+52-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:15:7-132
+53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+53-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:15:18-82
+54                android:resource="@drawable/launch_background" />
+54-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:15:83-129
+55
+56            <intent-filter>
+56-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:16:7-19:23
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:17:9-60
+57-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:17:17-58
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:18:9-68
+59-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:18:19-66
+60            </intent-filter>
+61        </activity>
+62        <!--
+63         Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+66-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:23:5-68
+67            android:name="flutterEmbedding"
+67-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:23:16-47
+68            android:value="2" />
+68-->C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:23:48-65
+69        <!-- <uses-permission android:name="android.permission.INTERNET"/> -->
+70        <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
+71        <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/> -->
+72        <provider
+72-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+73            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+73-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+74            android:authorities="com.example.dp.flutter.image_provider"
+74-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+75            android:exported="false"
+75-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+76            android:grantUriPermissions="true" >
+76-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+77            <meta-data
+77-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+79                android:resource="@xml/flutter_image_picker_file_paths" />
+79-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+80        </provider>
+81        <provider
+81-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-21:20
+82            android:name="com.crazecoder.openfile.FileProvider"
+82-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-64
+83            android:authorities="com.example.dp.fileProvider.com.crazecoder.openfile"
+83-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+84            android:exported="false"
+84-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+85            android:grantUriPermissions="true" >
+85-->[:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+86            <meta-data
+86-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+87                android:name="android.support.FILE_PROVIDER_PATHS"
+87-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+88                android:resource="@xml/filepaths" />
+88-->[:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+89        </provider>
+90
+91        <receiver
+91-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
+92            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+92-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
+93            android:exported="false" />
+93-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+94        <receiver
+94-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
+95            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+95-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
+96            android:exported="false" >
+96-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+97            <intent-filter>
+97-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
+98                <action android:name="android.intent.action.BOOT_COMPLETED" />
+98-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+98-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+99                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+99-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
+99-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
+100                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+100-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
+100-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
+101                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+101-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+101-->[:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>
