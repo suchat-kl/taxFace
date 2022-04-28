@@ -8,7 +8,7 @@ enum TypeMsg {
 class MsgShow {
   void showMsg(String msg, TypeMsg type, BuildContext context) {
     Flushbar(
-      titleText: Text("ระบบใบรับรองภาษี",
+      titleText: Text("ระบบใบรับรองภาษีและสลิป",
           style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 15.0,

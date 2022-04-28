@@ -1,12 +1,12 @@
-# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:18
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:76
--keep class com.crazecoder.openfile.FileProvider { <init>(); }
-# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:89
--keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver { <init>(); }
-# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:86
--keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver { <init>(); }
 # Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:23
--keep class com.example.dp.MainActivity { <init>(); }
-# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:67
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:82
+-keep class com.crazecoder.openfile.FileProvider { <init>(); }
+# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:95
+-keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver { <init>(); }
+# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:92
+-keep class com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver { <init>(); }
+# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:73
 -keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
+# Referenced at C:\flutterPrj\taxFace\android\app\build\intermediates\merged_manifests\release\AndroidManifest.xml:28
+-keep class th.go.doh.inf.facesliptax.MainActivity { <init>(); }

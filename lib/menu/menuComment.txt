@@ -1256,10 +1256,10 @@ class _MenuState extends State<Menu> {
       }
 
       url =
-          "http://dbdoh.doh.go.th:443/upload_regis/" + loginDetail.idcard + ext;
+          "http://dbdoh.doh.go.th:9000/upload_regis/" + loginDetail.idcard + ext;
     } else if (type == "login") {
       url =
-          "http://dbdoh.doh.go.th:443/upload_login/" + loginDetail.idcard + ext;
+          "http://dbdoh.doh.go.th:9000/upload_login/" + loginDetail.idcard + ext;
     }
 
     String status = "";
@@ -1494,7 +1494,7 @@ class _MenuState extends State<Menu> {
   }
 
   processReport(LoginDetail loginDetail) async {
-    String url = "http://dbdoh.doh.go.th:443/repYT/" +
+    String url = "http://dbdoh.doh.go.th:9000/repYT/" +
         loginDetail.idcard +
         "?yt=" +
         this.year;
@@ -1531,7 +1531,7 @@ class _MenuState extends State<Menu> {
     // });
     // if (!this.showPreview) return;
     // document = await PDFDocument.fromURL(
-    //   "http://dbdoh.doh.go.th:443/downloadRep/" + loginDetail.idcard,
+    //   "http://dbdoh.doh.go.th:9000/downloadRep/" + loginDetail.idcard,
     // );
     // print(document);
   }
@@ -1563,7 +1563,7 @@ class _MenuState extends State<Menu> {
     }
     await processReport(loginDetail);
     _fileName = loginDetail.idcard + ".pdf";
-    _fileUrl = "http://dbdoh.doh.go.th:443/downloadRep/" + loginDetail.idcard;
+    _fileUrl = "http://dbdoh.doh.go.th:9000/downloadRep/" + loginDetail.idcard;
 
     _download();
     //  dwnFile = false;
@@ -1696,7 +1696,7 @@ class _MenuState extends State<Menu> {
 
   Future<bool> isValidIdcard(String idcard) async {
     bool valid = false;
-    String url = "http://dbdoh.doh.go.th:443/isValidIdcard/" + idcard;
+    String url = "http://dbdoh.doh.go.th:9000/isValidIdcard/" + idcard;
     http.Response response = await http.post(
       Uri.parse(url),
       headers: <String, String>{
@@ -1717,7 +1717,7 @@ class _MenuState extends State<Menu> {
   }
 
   Future<void> countRegister(LoginDetail loginDetail) async {
-    String url = "http://dbdoh.doh.go.th:443/cnt_regis";
+    String url = "http://dbdoh.doh.go.th:9000/cnt_regis";
     http.Response response = await http.get(
       Uri.parse(url),
       headers: <String, String>{
@@ -1806,7 +1806,7 @@ class _MenuState extends State<Menu> {
   }
 
   Future<void> loginGetToken(LoginDetail loginDetail) async {
-    String url = "http://dbdoh.doh.go.th:443/login";
+    String url = "http://dbdoh.doh.go.th:9000/login";
     String username = "gdbf-7ho9yh'vp^jfy[wx", password = "suchat@doh";
     http.Response response = await http.post(
       Uri.parse(url),
@@ -1826,7 +1826,7 @@ class _MenuState extends State<Menu> {
 
   Future<bool> chkUuid(String idcard, String uuid, String status) async {
     bool err = false;
-    String url = "http://dbdoh.doh.go.th:443/idcardUuidIns/" +
+    String url = "http://dbdoh.doh.go.th:9000/idcardUuidIns/" +
         idcard +
         "?uuid=" +
         uuid +
@@ -1875,7 +1875,7 @@ class _MenuState extends State<Menu> {
   }
 
   Future<bool> cancelPhone(LoginDetail loginDetail) async {
-    String url = "http://dbdoh.doh.go.th:443/delPhone/" + loginDetail.idcard;
+    String url = "http://dbdoh.doh.go.th:9000/delPhone/" + loginDetail.idcard;
     // print(url);
     // String username = "gdbf-7ho9yh'vp^jfy[wx", password = "suchat@doh";
     http.Response response = await http.delete(
@@ -1998,7 +1998,7 @@ class _MenuState extends State<Menu> {
       ..add(FileModel(
         fileName: loginDetail.idcard+".pdf",
         url:
-            "http://dbdoh.doh.go.th:443/downloadRep/" + loginDetail.idcard,
+            "http://dbdoh.doh.go.th:9000/downloadRep/" + loginDetail.idcard,
         progress: 0.0,
       ));
       // ..add(FileModel(

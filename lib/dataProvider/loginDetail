@@ -7,6 +7,8 @@ class LoginDetail{
     String _userName="";
     String idcard="";
     String cntregis="";
+    String titleBar="เข้าระบบ";
+    String loginName="";
     
 // LoginDetail(String token,String userName,List<String> role){
 //   this.token=token;
@@ -20,6 +22,8 @@ class LoginDetail{
 
 
   get getRole => this._role;
+
+  
 
  set setRole(role) => this._role = role;
 

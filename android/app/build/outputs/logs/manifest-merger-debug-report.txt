@@ -1,216 +1,352 @@
 -- Merging decision tree log ---
+provider#com.ko2ic.imagedownloader.FileProvider
+INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:27:2-29:14
+	android:authorities
+		INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:1:1-28:12
-MERGED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:1:1-28:12
-MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
-MERGED from [:flutter_plugin_android_lifecycle] C:\flutterPrj\taxFace\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:device_info] C:\flutterPrj\taxFace\build\device_info\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:downloads_path_provider_28] C:\flutterPrj\taxFace\build\downloads_path_provider_28\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-24:12
-MERGED from [:sqflite] C:\flutterPrj\taxFace\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-28:12
-MERGED from [:path_provider_android] C:\flutterPrj\taxFace\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:advance_pdf_viewer] C:\flutterPrj\taxFace\build\advance_pdf_viewer\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:permission_handler] C:\flutterPrj\taxFace\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\19ba7db885417e2bf5c398977fb608dd\exifinterface-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e1cefde87375dffee5af182e14d891f1\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5fd9e061aa5875558417e80417563cbd\media-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ccde6556d402dc28dc812877548e64f\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e3ab28e0369334799897213232a1e943\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\007d9037902652f7529b46b9f31973c9\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ecfa71311b9c795373cf4afb61ba2dc\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a349b8178f610399753dfab2808efb37\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6971534f2ec04fadc98bd8dabb768a94\activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9359b4775d52ba2397bc75e4d58f9c56\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\73400dc753bb418abce07e646b61e006\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\54f01e1e155126f5a19b2145546f1585\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\027103c1c80f4ade813a63ae3b5e4c72\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fac2c4b7430dfa8e1736284e9160c712\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f963d23921bf42119188a09439b1ee79\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb819d2e68d445b89be4cba8756f6164\core-1.6.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0a0569fc7a2a75485b925ae1876511b1\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c10feda0876ce14d6943e9591215efed\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\452de8e41565bfc57fff78c0d402b874\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\900730b14fc76c7111ab53cc9077c3d4\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ead047dbc05727e6d40964ec7d507100\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a9a6898a5a531868b98e964f5a08e2ed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6c2943b3af87455829a7879e4c11567\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1667c71afe502048946e47303e7520bd\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dcf183f8220d09dce0655ae3e7436f26\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\646d1a3b715b332405b14feda7a60955\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\366e7ff6093519cdaa2015347796c3c4\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a8294a52f5f8d94a741d978da97a1795\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b8de139fb7bc80982ae05a2e8d8b4e55\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d78d119009dd03abd7076993a15d9324\threetenabp-1.2.3\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b655674eaf4afbc16646b7c017cdf03d\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:1-60:12
+MERGED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:1-60:12
+MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:local_auth] C:\flutterPrj\taxFace\build\local_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\flutterPrj\taxFace\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] C:\flutterPrj\taxFace\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-28:12
+MERGED from [:url_launcher_android] C:\flutterPrj\taxFace\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider_android] C:\flutterPrj\taxFace\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:just_audio] C:\flutterPrj\taxFace\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info] C:\flutterPrj\taxFace\build\device_info\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-24:12
+MERGED from [:advance_pdf_viewer] C:\flutterPrj\taxFace\build\advance_pdf_viewer\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_downloader] C:\flutterPrj\taxFace\build\image_downloader\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:audio_session] C:\flutterPrj\taxFace\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] C:\flutterPrj\taxFace\build\permission_handler\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\b62add7f95f0112fad425d51e287582b\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\c2a0685585a6a61b11ddb7e6b5a7eb53\transformed\exifinterface-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\26465d374ea9e8b380a13b6f309cf5a1\transformed\jetified-exoplayer-dash-2.15.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\f54c8832f51e02a3037d5723c2acefab\transformed\jetified-exoplayer-hls-2.15.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\c6f2a124ee2b025e8cbec9b4d6e76183\transformed\jetified-exoplayer-smoothstreaming-2.15.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\c17d14dbb30cf7144fa2ec831641b43a\transformed\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\34da05d031cedf7e790ba4ca4f5ed2e7\transformed\biometric-1.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\73bbf3c29edde231bf14c74ef9d0829d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\89ef9f58ed117c6930948f2ea196b92e\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.2] C:\Users\Administrator\.gradle\caches\transforms-3\bf46b62503e23e3a73ab0972af4eac65\transformed\fragment-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\cbf9825f2e3495fe3d6f8c32d1fa5c45\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.activity:activity:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-3\f28e8ea80177dc341159a41874791912\transformed\jetified-activity-1.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\9b9ae85d96eed0431da99a65c4a1357c\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\3c7486c136060a01c9b83dc82182d0f7\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\875e07c7d9c2c5e5ee4f174382f5fb4a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\fc85e0862785e4db3c988253fd6670c7\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\7a0e174ffc7c5c9dee0733437c7a642c\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\152d49ca0ffd8aef062927607156df04\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\9edf7658cb4dda16a721191bcc1c8e97\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\275efded74f3d037c878d3501b2a0deb\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\00b8a9be878480b18f17724a87ab73b9\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\0ffaec5c680584d03b48205753996d10\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\038493934aa56762233a04c8e0f37d7d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.media2:media2-common:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\c2849736613b1a391b1fc4e74cbbdb97\transformed\jetified-media2-common-1.1.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\d7dfc448ca103bff5fcb7b2f25f86bdf\transformed\media-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\7d2126bdc0e5aeb07de7272ec6fdbb9d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\1fa7b9a9752695809aa79ef0b4c46ece\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\d118b71b31ac2018b0687bad4db3eb97\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\2e6e76fa303d955270a6d9b01c530e48\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\eb511ad0aafc22cbf79438a0c863a00b\transformed\jetified-exoplayer-extractor-2.15.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\a49f23e7940b960c9124b9a86996cfa2\transformed\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-3\617502ce39c250fe34e8d466da095cd3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\864253c25b45f9aec9419377a4d34427\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\06a26679e951b28d14c5d198471402cd\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\5cf5721e164121fde224ea3685301b4e\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\0f4f2e559dc26b88dc6e2424ee13bd54\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\a6c732f226773a44b4bef2ba9e2027c6\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\0e4e88f45cc5f81516d8649727bd4321\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\2319d372797f3efd648bfc4e047644db\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\a30be6d3f3435594ce1a7cda49abdcec\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\4590003ad923b4a0e4bfa16b2520ca0c\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\70fc9ef1ddd2bb5abafa17b531315bea\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\0e7d66eb960692fe6d536889f328a109\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\1c9eea707e66dc0c6a0596ce51a4fd57\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-3\5ae80e294f94dcddd50732905ebc3eab\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\d6ccf0fe300df96f2ae39f040e0f96e3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:1:70-94
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:70-105
 		INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:1:1-28:12
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:1:1-28:12
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:3-27:17
-MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
-MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
-MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-22:19
-MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-22:19
-MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-26:19
-MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-26:19
-MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb819d2e68d445b89be4cba8756f6164\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb819d2e68d445b89be4cba8756f6164\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a9a6898a5a531868b98e964f5a08e2ed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a9a6898a5a531868b98e964f5a08e2ed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d78d119009dd03abd7076993a15d9324\threetenabp-1.2.3\AndroidManifest.xml:7:5-20
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d78d119009dd03abd7076993a15d9324\threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:3:3-30:17
+MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [:url_launcher_android] C:\flutterPrj\taxFace\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] C:\flutterPrj\taxFace\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-22:19
+MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-22:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\d118b71b31ac2018b0687bad4db3eb97\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\d118b71b31ac2018b0687bad4db3eb97\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-3\617502ce39c250fe34e8d466da095cd3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-3\617502ce39c250fe34e8d466da095cd3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-3\5ae80e294f94dcddd50732905ebc3eab\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-3\5ae80e294f94dcddd50732905ebc3eab\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb819d2e68d445b89be4cba8756f6164\core-1.6.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\d118b71b31ac2018b0687bad4db3eb97\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:16-39
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:3:16-43
 	android:icon
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:2:40-74
-activity#com.example.dp.MainActivity
-ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:5-20:16
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:3:44-80
+	android:networkSecurityConfig
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:40-100
+	android:usesCleartextTraffic
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:3-38
+activity#th.go.doh.inf.facesliptax.MainActivity
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:6:5-23:16
 	android:launchMode
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:44-74
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:6:44-74
 	android:hardwareAccelerated
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:261-295
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:6:261-295
 	android:windowSoftInputMode
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:296-338
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:6:296-338
 	android:configChanges
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:110-260
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:6:110-260
 	android:theme
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:75-109
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:6:75-109
 	android:name
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:4:15-43
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:6:15-43
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:9:7-114
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:11:7-114
 	android:resource
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:9:74-111
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:11:74-111
 	android:name
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:9:18-73
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:11:18-73
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:15:7-132
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:17:7-132
 	android:resource
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:15:83-129
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:17:83-129
 	android:name
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:15:18-82
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:17:18-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:16:7-19:23
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:18:7-21:23
 action#android.intent.action.MAIN
-ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:17:9-60
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:19:9-60
 	android:name
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:17:17-58
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:19:17-58
 category#android.intent.category.LAUNCHER
-ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:18:9-68
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:20:9-68
 	android:name
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:18:19-66
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:20:19-66
 meta-data#flutterEmbedding
-ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:23:5-68
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:26:5-68
 	android:value
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:23:48-65
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:26:48-65
 	android:name
-		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:23:16-47
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:26:16-47
+uses-permission#android.permission.INTERNET
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:31:3-65
+MERGED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:31:3-65
+MERGED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:31:3-65
+	android:name
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:31:20-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:32:3-78
+MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:32:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:33:3-78
+	android:name
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:33:20-76
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:34:3-71
+MERGED from [:local_auth] C:\flutterPrj\taxFace\build\local_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-74
+MERGED from [:local_auth] C:\flutterPrj\taxFace\build\local_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-74
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\34da05d031cedf7e790ba4ca4f5ed2e7\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\34da05d031cedf7e790ba4ca4f5ed2e7\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:34:20-69
+queries
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:38:1-59:11
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:24:5-34:15
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:40:3-43:12
+action#android.intent.action.VIEW
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:41:5-57
+	android:name
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:41:13-54
+data
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:42:5-36
+	android:scheme
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:42:11-33
+intent#action:name:android.intent.action.DIAL+data:scheme:tel
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:45:3-48:12
+action#android.intent.action.DIAL
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:46:5-57
+	android:name
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:46:13-54
+intent#action:name:android.intent.action.SENDTO+data:scheme:smsto
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:50:3-53:12
+action#android.intent.action.SENDTO
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:51:5-59
+	android:name
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:51:13-56
+intent#action:name:android.intent.action.SEND+data:mimeType:*/*
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:55:3-58:12
+action#android.intent.action.SEND
+ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:56:5-57
+	android:name
+		ADDED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml:56:13-54
 uses-sdk
 INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml
-MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\flutterPrj\taxFace\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\flutterPrj\taxFace\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:device_info] C:\flutterPrj\taxFace\build\device_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:device_info] C:\flutterPrj\taxFace\build\device_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:downloads_path_provider_28] C:\flutterPrj\taxFace\build\downloads_path_provider_28\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:downloads_path_provider_28] C:\flutterPrj\taxFace\build\downloads_path_provider_28\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-44
-MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-44
-MERGED from [:sqflite] C:\flutterPrj\taxFace\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:sqflite] C:\flutterPrj\taxFace\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] C:\flutterPrj\taxFace\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] C:\flutterPrj\taxFace\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:advance_pdf_viewer] C:\flutterPrj\taxFace\build\advance_pdf_viewer\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:advance_pdf_viewer] C:\flutterPrj\taxFace\build\advance_pdf_viewer\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler] C:\flutterPrj\taxFace\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:permission_handler] C:\flutterPrj\taxFace\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\19ba7db885417e2bf5c398977fb608dd\exifinterface-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\19ba7db885417e2bf5c398977fb608dd\exifinterface-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e1cefde87375dffee5af182e14d891f1\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e1cefde87375dffee5af182e14d891f1\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5fd9e061aa5875558417e80417563cbd\media-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5fd9e061aa5875558417e80417563cbd\media-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ccde6556d402dc28dc812877548e64f\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0ccde6556d402dc28dc812877548e64f\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e3ab28e0369334799897213232a1e943\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e3ab28e0369334799897213232a1e943\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\007d9037902652f7529b46b9f31973c9\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\007d9037902652f7529b46b9f31973c9\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ecfa71311b9c795373cf4afb61ba2dc\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7ecfa71311b9c795373cf4afb61ba2dc\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a349b8178f610399753dfab2808efb37\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a349b8178f610399753dfab2808efb37\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6971534f2ec04fadc98bd8dabb768a94\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6971534f2ec04fadc98bd8dabb768a94\activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9359b4775d52ba2397bc75e4d58f9c56\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9359b4775d52ba2397bc75e4d58f9c56\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\73400dc753bb418abce07e646b61e006\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\73400dc753bb418abce07e646b61e006\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\54f01e1e155126f5a19b2145546f1585\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\54f01e1e155126f5a19b2145546f1585\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\027103c1c80f4ade813a63ae3b5e4c72\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\027103c1c80f4ade813a63ae3b5e4c72\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fac2c4b7430dfa8e1736284e9160c712\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fac2c4b7430dfa8e1736284e9160c712\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f963d23921bf42119188a09439b1ee79\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f963d23921bf42119188a09439b1ee79\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb819d2e68d445b89be4cba8756f6164\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cb819d2e68d445b89be4cba8756f6164\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0a0569fc7a2a75485b925ae1876511b1\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0a0569fc7a2a75485b925ae1876511b1\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c10feda0876ce14d6943e9591215efed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c10feda0876ce14d6943e9591215efed\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\452de8e41565bfc57fff78c0d402b874\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\452de8e41565bfc57fff78c0d402b874\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\900730b14fc76c7111ab53cc9077c3d4\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\900730b14fc76c7111ab53cc9077c3d4\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ead047dbc05727e6d40964ec7d507100\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ead047dbc05727e6d40964ec7d507100\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a9a6898a5a531868b98e964f5a08e2ed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a9a6898a5a531868b98e964f5a08e2ed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6c2943b3af87455829a7879e4c11567\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6c2943b3af87455829a7879e4c11567\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1667c71afe502048946e47303e7520bd\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1667c71afe502048946e47303e7520bd\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dcf183f8220d09dce0655ae3e7436f26\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\dcf183f8220d09dce0655ae3e7436f26\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\646d1a3b715b332405b14feda7a60955\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\646d1a3b715b332405b14feda7a60955\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\366e7ff6093519cdaa2015347796c3c4\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\366e7ff6093519cdaa2015347796c3c4\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a8294a52f5f8d94a741d978da97a1795\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a8294a52f5f8d94a741d978da97a1795\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b8de139fb7bc80982ae05a2e8d8b4e55\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b8de139fb7bc80982ae05a2e8d8b4e55\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d78d119009dd03abd7076993a15d9324\threetenabp-1.2.3\AndroidManifest.xml:5:5-44
-MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d78d119009dd03abd7076993a15d9324\threetenabp-1.2.3\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b655674eaf4afbc16646b7c017cdf03d\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b655674eaf4afbc16646b7c017cdf03d\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:local_auth] C:\flutterPrj\taxFace\build\local_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:local_auth] C:\flutterPrj\taxFace\build\local_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\flutterPrj\taxFace\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\flutterPrj\taxFace\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\flutterPrj\taxFace\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\flutterPrj\taxFace\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\flutterPrj\taxFace\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\flutterPrj\taxFace\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\flutterPrj\taxFace\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\flutterPrj\taxFace\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:just_audio] C:\flutterPrj\taxFace\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:just_audio] C:\flutterPrj\taxFace\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:device_info] C:\flutterPrj\taxFace\build\device_info\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:device_info] C:\flutterPrj\taxFace\build\device_info\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:advance_pdf_viewer] C:\flutterPrj\taxFace\build\advance_pdf_viewer\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:advance_pdf_viewer] C:\flutterPrj\taxFace\build\advance_pdf_viewer\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_downloader] C:\flutterPrj\taxFace\build\image_downloader\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_downloader] C:\flutterPrj\taxFace\build\image_downloader\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\flutterPrj\taxFace\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\flutterPrj\taxFace\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] C:\flutterPrj\taxFace\build\permission_handler\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] C:\flutterPrj\taxFace\build\permission_handler\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\b62add7f95f0112fad425d51e287582b\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\b62add7f95f0112fad425d51e287582b\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\c2a0685585a6a61b11ddb7e6b5a7eb53\transformed\exifinterface-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-3\c2a0685585a6a61b11ddb7e6b5a7eb53\transformed\exifinterface-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\26465d374ea9e8b380a13b6f309cf5a1\transformed\jetified-exoplayer-dash-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\26465d374ea9e8b380a13b6f309cf5a1\transformed\jetified-exoplayer-dash-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\f54c8832f51e02a3037d5723c2acefab\transformed\jetified-exoplayer-hls-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\f54c8832f51e02a3037d5723c2acefab\transformed\jetified-exoplayer-hls-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\c6f2a124ee2b025e8cbec9b4d6e76183\transformed\jetified-exoplayer-smoothstreaming-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\c6f2a124ee2b025e8cbec9b4d6e76183\transformed\jetified-exoplayer-smoothstreaming-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\c17d14dbb30cf7144fa2ec831641b43a\transformed\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\c17d14dbb30cf7144fa2ec831641b43a\transformed\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\34da05d031cedf7e790ba4ca4f5ed2e7\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\34da05d031cedf7e790ba4ca4f5ed2e7\transformed\biometric-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\73bbf3c29edde231bf14c74ef9d0829d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\73bbf3c29edde231bf14c74ef9d0829d\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\89ef9f58ed117c6930948f2ea196b92e\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\89ef9f58ed117c6930948f2ea196b92e\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.2] C:\Users\Administrator\.gradle\caches\transforms-3\bf46b62503e23e3a73ab0972af4eac65\transformed\fragment-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.2] C:\Users\Administrator\.gradle\caches\transforms-3\bf46b62503e23e3a73ab0972af4eac65\transformed\fragment-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\cbf9825f2e3495fe3d6f8c32d1fa5c45\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\cbf9825f2e3495fe3d6f8c32d1fa5c45\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.activity:activity:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-3\f28e8ea80177dc341159a41874791912\transformed\jetified-activity-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-3\f28e8ea80177dc341159a41874791912\transformed\jetified-activity-1.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\9b9ae85d96eed0431da99a65c4a1357c\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\9b9ae85d96eed0431da99a65c4a1357c\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\3c7486c136060a01c9b83dc82182d0f7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\3c7486c136060a01c9b83dc82182d0f7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\875e07c7d9c2c5e5ee4f174382f5fb4a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\875e07c7d9c2c5e5ee4f174382f5fb4a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\fc85e0862785e4db3c988253fd6670c7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\fc85e0862785e4db3c988253fd6670c7\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\7a0e174ffc7c5c9dee0733437c7a642c\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\7a0e174ffc7c5c9dee0733437c7a642c\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\152d49ca0ffd8aef062927607156df04\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\152d49ca0ffd8aef062927607156df04\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\9edf7658cb4dda16a721191bcc1c8e97\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\9edf7658cb4dda16a721191bcc1c8e97\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\275efded74f3d037c878d3501b2a0deb\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\275efded74f3d037c878d3501b2a0deb\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\00b8a9be878480b18f17724a87ab73b9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\00b8a9be878480b18f17724a87ab73b9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\0ffaec5c680584d03b48205753996d10\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\0ffaec5c680584d03b48205753996d10\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\038493934aa56762233a04c8e0f37d7d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\038493934aa56762233a04c8e0f37d7d\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\c2849736613b1a391b1fc4e74cbbdb97\transformed\jetified-media2-common-1.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\c2849736613b1a391b1fc4e74cbbdb97\transformed\jetified-media2-common-1.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\d7dfc448ca103bff5fcb7b2f25f86bdf\transformed\media-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\d7dfc448ca103bff5fcb7b2f25f86bdf\transformed\media-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\7d2126bdc0e5aeb07de7272ec6fdbb9d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\7d2126bdc0e5aeb07de7272ec6fdbb9d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\1fa7b9a9752695809aa79ef0b4c46ece\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\1fa7b9a9752695809aa79ef0b4c46ece\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\d118b71b31ac2018b0687bad4db3eb97\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Administrator\.gradle\caches\transforms-3\d118b71b31ac2018b0687bad4db3eb97\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\2e6e76fa303d955270a6d9b01c530e48\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\2e6e76fa303d955270a6d9b01c530e48\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\eb511ad0aafc22cbf79438a0c863a00b\transformed\jetified-exoplayer-extractor-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\eb511ad0aafc22cbf79438a0c863a00b\transformed\jetified-exoplayer-extractor-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\a49f23e7940b960c9124b9a86996cfa2\transformed\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\a49f23e7940b960c9124b9a86996cfa2\transformed\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-3\617502ce39c250fe34e8d466da095cd3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-3\617502ce39c250fe34e8d466da095cd3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\864253c25b45f9aec9419377a4d34427\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\864253c25b45f9aec9419377a4d34427\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\06a26679e951b28d14c5d198471402cd\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\06a26679e951b28d14c5d198471402cd\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\5cf5721e164121fde224ea3685301b4e\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\5cf5721e164121fde224ea3685301b4e\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\0f4f2e559dc26b88dc6e2424ee13bd54\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\0f4f2e559dc26b88dc6e2424ee13bd54\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\a6c732f226773a44b4bef2ba9e2027c6\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\a6c732f226773a44b4bef2ba9e2027c6\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\0e4e88f45cc5f81516d8649727bd4321\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Administrator\.gradle\caches\transforms-3\0e4e88f45cc5f81516d8649727bd4321\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\2319d372797f3efd648bfc4e047644db\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\2319d372797f3efd648bfc4e047644db\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\a30be6d3f3435594ce1a7cda49abdcec\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\a30be6d3f3435594ce1a7cda49abdcec\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\4590003ad923b4a0e4bfa16b2520ca0c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\4590003ad923b4a0e4bfa16b2520ca0c\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\70fc9ef1ddd2bb5abafa17b531315bea\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\70fc9ef1ddd2bb5abafa17b531315bea\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\0e7d66eb960692fe6d536889f328a109\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\0e7d66eb960692fe6d536889f328a109\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\1c9eea707e66dc0c6a0596ce51a4fd57\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-3\1c9eea707e66dc0c6a0596ce51a4fd57\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-3\5ae80e294f94dcddd50732905ebc3eab\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Administrator\.gradle\caches\transforms-3\5ae80e294f94dcddd50732905ebc3eab\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\d6ccf0fe300df96f2ae39f040e0f96e3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\d6ccf0fe300df96f2ae39f040e0f96e3\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -219,89 +355,139 @@ INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\flutterPrj\taxFace\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml:6:5-66
-	android:name
-		ADDED from C:\flutterPrj\taxFace\android\app\src\debug\AndroidManifest.xml:6:22-64
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
-		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
 	android:authorities
-		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-74
 	android:exported
-		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:75
 	android:resource
-		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-72
 	android:name
-		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
-uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-83
-	android:name
-		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-80
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
-	android:name
-		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-77
-provider#com.crazecoder.openfile.FileProvider
-ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-21:20
+		ADDED from [:image_picker] C:\flutterPrj\taxFace\build\image_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+provider#de.esys.esysfluttershare.EsysFlutterShareFileProvider
+ADDED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
 	android:grantUriPermissions
-		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+		ADDED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
 	android:authorities
-		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+		ADDED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-110
 	android:exported
-		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
-	tools:replace
-		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-48
+		ADDED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
 	android:name
-		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-64
+		ADDED from [:modern_form_esys_flutter_share] C:\flutterPrj\taxFace\build\modern_form_esys_flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-81
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-63
 uses-permission#android.permission.USE_FULL_SCREEN_INTENT
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.SCHEDULE_EXACT_ALARM
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
 receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-15:40
 	android:exported
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-97
 receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-25:20
 	android:exported
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-101
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-24:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-79
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-76
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-84
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:25-81
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-79
 action#com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-82
 	android:name
-		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+		ADDED from [:flutter_local_notifications] C:\flutterPrj\taxFace\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:25-79
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\flutterPrj\taxFace\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\flutterPrj\taxFace\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\flutterPrj\taxFace\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\flutterPrj\taxFace\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-83
+	android:name
+		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-80
+provider#com.crazecoder.openfile.FileProvider
+ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-21:20
+	android:grantUriPermissions
+		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-88
+	android:exported
+		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+	tools:replace
+		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-48
+	android:name
+		ADDED from [:open_file] C:\flutterPrj\taxFace\build\open_file\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-64
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Administrator\.gradle\caches\transforms-3\c291a541648cf1084eba3acf0d5d6a11\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\c17d14dbb30cf7144fa2ec831641b43a\transformed\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\a49f23e7940b960c9124b9a86996cfa2\transformed\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\a49f23e7940b960c9124b9a86996cfa2\transformed\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Administrator\.gradle\caches\transforms-3\c17d14dbb30cf7144fa2ec831641b43a\transformed\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\34da05d031cedf7e790ba4ca4f5ed2e7\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-3\34da05d031cedf7e790ba4ca4f5ed2e7\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:26:21-76
+intent#action:name:androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:28:9-30:18
+action#androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:29:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:29:21-79
+intent#action:name:androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:31:9-33:18
+action#androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:32:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-3\82e81f93590faa9877fbe7c4d0e5f4a3\transformed\jetified-media2-session-1.1.3\AndroidManifest.xml:32:21-79

@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         routes: {
           // '/':(context)=>MyLoginPage(title: 'เข้าระบบ'),
-          '/menu':(context)=>Menu(title: 'เลือกรายการเมนู')
+          '/menu':(context)=>Menu(title: LoginDetail().titleBar)
         },
         initialRoute: '/menu',
-        title: 'ระบบงานออกใบรับรองภาษีรายบุคคล',
+        title: 'ระบบงานออกใบรับรองภาษีสลิปรายบุคคล',
         theme: ThemeData(
           
           primarySwatch: Colors.green,

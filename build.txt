@@ -2,8 +2,16 @@ flutter build web
 directory build/web
 
 flutter build apk --release
+flutter build appbundle --release
 
 flutter clean
+flutter clean cached
 flutter pub get
+
 flutter clean
 flutter run
+
+flutter pub run flutter_launcher_icons:main  //icon app
+flutter pub get upgrade
+flutter upgrade
+flutter doctor

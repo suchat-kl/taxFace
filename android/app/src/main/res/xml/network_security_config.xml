@@ -3,6 +3,10 @@
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">dbdoh.doh.go.th</domain>
     </domain-config>
-    <base-config cleartextTrafficPermitted="true"/>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
 
 </network-security-config>
